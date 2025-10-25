@@ -1,0 +1,74 @@
+Metadata-Version: 2.4
+Name: src
+Version: 0.1.0
+Summary: Automated README file generator, powered by AI.
+Author-email: Eli <egsalamie@gmail.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/eli64s/readme-ai
+Project-URL: Documentation, https://eli64s.github.io/readme-ai
+Keywords: ai-documentation,anthropic,badge-generator,developer-tools,documentation,documentation-generator,gemini,gpt,gpt-4,markdown,markdown-generator,markdown-md,readme-md,readme-md-generator,readme-generator,readme-template,readme-md-generator,streamlit
+Requires-Python: <4.0,>=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: readmeai==0.5.99post5
+Requires-Dist: streamlit
+Provides-Extra: dev
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest==7.4.4; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-randomly; extra == "test"
+Requires-Dist: pytest-sugar; extra == "test"
+Requires-Dist: pytest-xdist; extra == "test"
+Dynamic: license-file
+
+<a name="readme-top"></a>
+
+<div align="center">
+
+<p align="center">
+  <img src="./assets/logo.svg" alt="readme-ai-streamlit" width="100%">
+</p>
+
+<p align="center">
+  <em>Designed for simplicity, customization, and developer productivity.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/eli64s/readme-ai/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/eli64s/readme-ai/release-pipeline.yml?logo=githubactions&label=CICD&logoColor=white&color=4169E1" alt="github-actions">
+  </a>
+  <a href="https://app.codecov.io/gh/eli64s/readme-ai">
+    <img src="https://img.shields.io/codecov/c/github/eli64s/readme-ai?logo=codecov&logoColor=white&label=Coverage&color=5D4ED3" alt="codecov">
+  </a>
+  <a href="https://pypi.python.org/pypi/readmeai/">
+    <img src="https://img.shields.io/pypi/v/readmeai?logo=Python&logoColor=white&label=PyPI&color=7934C5" alt="pypi-version">
+  </a>
+  <a href="https://www.pepy.tech/projects/readmeai">
+    <img src="https://img.shields.io/pepy/dt/readmeai?logo=PyPI&logoColor=white&label=Downloads&color=9400D3" alt="pepy-total-downloads">
+  </a>
+  <a href="https://opensource.org/license/mit/">
+    <img src="https://img.shields.io/github/license/eli64s/readme-ai?logo=opensourceinitiative&logoColor=white&label=License&color=8A2BE2" alt="license">
+  </a>
+</p>
+
+&nbsp;&emsp13;·&emsp13;&nbsp;[Official Documentation][docs]&nbsp;&emsp13;·&emsp13;&nbsp;[README-AI CLI][readme-ai]&nbsp;&emsp13;·&emsp13;&nbsp;[Report Bug][github-issues]&nbsp;&emsp13;·&emsp13;&nbsp;[Request Feature][github-issues]
+
+</div>
+
+<img width="100%" height="4px" src="./assets/line.svg" alt="readme-ai-divider">
+
+## 🎗 License
+
+Copyright © 2023 [readme-ai][readme-ai]. <br />
+Released under the [Apache License 2.0][license] license.
+
+<!-- REFERENCE LINKS -->
+
+[docs]: https://eli64s.github.io/readme-ai
+[readme-ai]: https://github.com/eli64s/readme-ai
+[github-issues]: https://github.com/eli64s/readme-ai-streamlit/issues
+[license]: https://github.com/eli64s/readme-ai-streamlit/blob/main/LICENSE
+[return-button]: https://img.shields.io/badge/Back_to_top-5D4ED3?style=flat&logo=ReadMe&logoColor=white

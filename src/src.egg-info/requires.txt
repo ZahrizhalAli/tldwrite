@@ -1,0 +1,14 @@
+readmeai==0.5.99post5
+streamlit
+
+[dev]
+mypy
+pre-commit
+ruff
+
+[test]
+pytest==7.4.4
+pytest-cov
+pytest-randomly
+pytest-sugar
+pytest-xdist
