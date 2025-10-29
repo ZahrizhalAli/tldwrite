@@ -1,27 +1,12 @@
 <p align="center">
     <img src="./assets/logo.png" align="center" width="100%">
 </p>
-<p align="center"><h1 align="center">TLDWRITE</h1></p>
-<p align="center">
-	<em>Crafting Clarity, One README at a Time!</em>
-</p>
-<p align="center">
-	<img src="https://img.shields.io/github/license/ZahrizhalAli/tldwrite?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/ZahrizhalAli/tldwrite?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/ZahrizhalAli/tldwrite?style=default&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/ZahrizhalAli/tldwrite?style=default&color=0080ff" alt="repo-language-count">
-</p>
-<p align="center"><!-- default option, no dependency badges. -->
-</p>
-<p align="center">
-	<!-- default option, no dependency badges. -->
-</p>
+
 <br>
 <div align="left" style="position: relative;">
-<img src="tldwrite.png" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>TLDWRITE</h1>
 <p align="left">
-	<em>Streamline Your Docs, Elevate Your Code!</em>
+	<em>Clarity, One README at a Time!</em>
 </p>
 <p align="left">
 	<img src="https://img.shields.io/github/license/ZahrizhalAli/tldwrite?style=flat-square&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
