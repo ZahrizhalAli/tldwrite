@@ -182,3 +182,4 @@ urllib3==2.2.3
     # via requests
 yarl==1.16.0
     # via aiohttp
+pydantic-ai==1.7.0

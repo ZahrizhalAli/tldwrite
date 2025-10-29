@@ -20,7 +20,7 @@ APP_TITLE: Final[str] = "README-AI"
 
 # Model Configuration
 SUPPORTED_MODELS: Final[Dict[str, List[str]]] = {
-    "OPENAI": ["gpt-3.5-turbo", "gpt-4", "gpt-4-turbo"],
+    "OPENAI": ["gpt-3.5-turbo", "gpt-4o-mini-2024-07-18", "gpt-4-turbo"],
     "ANTHROPIC": ["claude-3-opus-20240229", "claude-3-sonnet-20240229"],
     "GEMINI": ["gemini-1.5-pro", "gemini-1.5-flash"],
     "OLLAMA": ["llama3", "mistral", "gemma"],
@@ -84,24 +84,15 @@ class ReadmeAIApp:
 
         )
 
-    raw_image_url = "https://raw.githubusercontent.com/ZahrizhalAli/tldwrite/36eb328a0542b25f3801dafc38ef17bb7920415e/assets/logo.png"
     def _render_header(self) -> None:
         """Render application header."""
         # Use columns for potentially better control, though one column works too
         col1, _ = st.columns([0.99, 0.01])
         with col1:
-            # Consider hosting the image within the app or using a more permanent URL
-            st.markdown(
-                """
-                <p align="left">
-            <img src="{raw_image_url}" alt="TL;DWrite Banner Logo" width="45%">
-        </p>
-                <p align="left"><img src="https://github.com/ZahrizhalAli/tldwrite/blob/36eb328a0542b25f3801dafc38ef17bb7920415e/assets/logo.png" alt="readme-ai-banner-logo" width="45%"></p>
-                """,
-                unsafe_allow_html=True,
-            )
-            # if DESCRIPTION:
-            #     st.markdown(f"*{DESCRIPTION}*")
+            raw_image_url = "https://raw.githubusercontent.com/ZahrizhalAli/tldwrite/36eb328a0542b25f3801dafc38ef17bb7920415e/assets/logo.png"
+
+            st.html(f"<img src={raw_image_url} style='width:30%'>")
+
 
     def _render_sidebar(self) -> Tuple[str | None, str | None, Dict[str, str]]:
         """Render sidebar with configuration options. Returns repo_path, api_key, model_config."""
@@ -363,6 +354,7 @@ class ReadmeAIApp:
     def run(self) -> None:
         """Run the main Streamlit application flow."""
         self._render_header()
+
 
         repo_path, api_key, model_config = self._render_sidebar()
         options = self._render_main_options()
