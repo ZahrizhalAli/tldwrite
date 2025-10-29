@@ -89,9 +89,9 @@ class ReadmeAIApp:
         # Use columns for potentially better control, though one column works too
         col1, _ = st.columns([0.99, 0.01])
         with col1:
-            raw_image_url = "https://raw.githubusercontent.com/ZahrizhalAli/tldwrite/36eb328a0542b25f3801dafc38ef17bb7920415e/assets/logo.png"
+            raw_image_url = "https://raw.githubusercontent.com/ZahrizhalAli/tldwrite/main/assets/stretch_logo.png"
 
-            st.html(f"<img src={raw_image_url} style='width:30%'>")
+            st.html(f"<img src={raw_image_url} style='width:100%'>")
 
 
     def _render_sidebar(self) -> Tuple[str | None, str | None, Dict[str, str]]:
