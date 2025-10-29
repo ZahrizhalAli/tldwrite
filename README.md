@@ -17,47 +17,76 @@
 	<!-- default option, no dependency badges. -->
 </p>
 <br>
+<div align="left" style="position: relative;">
+<img src="tldwrite.png" align="right" width="30%" style="margin: -20px 0 0 20px;">
+<h1>TLDWRITE</h1>
+<p align="left">
+	<em>Streamline Your Docs, Elevate Your Code!</em>
+</p>
+<p align="left">
+	<img src="https://img.shields.io/github/license/ZahrizhalAli/tldwrite?style=flat-square&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/ZahrizhalAli/tldwrite?style=flat-square&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/ZahrizhalAli/tldwrite?style=flat-square&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/ZahrizhalAli/tldwrite?style=flat-square&color=0080ff" alt="repo-language-count">
+</p>
+<p align="left">Built with the tools and technologies:</p>
+<p align="left">
+	<img src="https://img.shields.io/badge/Jinja-B41717.svg?style=flat-square&logo=Jinja&logoColor=white" alt="Jinja">
+	<img src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat-square&logo=Streamlit&logoColor=white" alt="Streamlit">
+	<img src="https://img.shields.io/badge/TOML-9C4121.svg?style=flat-square&logo=TOML&logoColor=white" alt="TOML">
+	<img src="https://img.shields.io/badge/tqdm-FFC107.svg?style=flat-square&logo=tqdm&logoColor=black" alt="tqdm">
+	<img src="https://img.shields.io/badge/GNU%20Bash-4EAA25.svg?style=flat-square&logo=GNU-Bash&logoColor=white" alt="GNU%20Bash">
+	<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat-square&logo=NumPy&logoColor=white" alt="NumPy">
+	<br>
+	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat-square&logo=Python&logoColor=white" alt="Python">
+	<img src="https://img.shields.io/badge/AIOHTTP-2C5BB4.svg?style=flat-square&logo=AIOHTTP&logoColor=white" alt="AIOHTTP">
+	<img src="https://img.shields.io/badge/pandas-150458.svg?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
+	<img src="https://img.shields.io/badge/OpenAI-412991.svg?style=flat-square&logo=OpenAI&logoColor=white" alt="OpenAI">
+	<img src="https://img.shields.io/badge/Pydantic-E92063.svg?style=flat-square&logo=Pydantic&logoColor=white" alt="Pydantic">
+</p>
+</div>
+<br clear="right">
 
-##  Table of Contents
+## 🔗 Table of Contents
 
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Project Structure](#-project-structure)
-  - [ Project Index](#-project-index)
-- [ Getting Started](#-getting-started)
-  - [ Prerequisites](#-prerequisites)
-  - [ Installation](#-installation)
-  - [ Usage](#-usage)
-  - [ Testing](#-testing)
-- [ Project Roadmap](#-project-roadmap)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
+- [📍 Overview](#-overview)
+- [👾 Features](#-features)
+- [📁 Project Structure](#-project-structure)
+  - [📂 Project Index](#-project-index)
+- [🚀 Getting Started](#-getting-started)
+  - [☑️ Prerequisites](#-prerequisites)
+  - [⚙️ Installation](#-installation)
+  - [🤖 Usage](#🤖-usage)
+  - [🧪 Testing](#🧪-testing)
+- [📌 Project Roadmap](#-project-roadmap)
+- [🔰 Contributing](#-contributing)
+- [🎗 License](#-license)
+- [🙌 Acknowledgments](#-acknowledgments)
 
 ---
 
-##  Overview
+## 📍 Overview
 
-The tldwrite project revolutionizes the way developers create README files by harnessing the power of AI. This intuitive Streamlit web application allows users to effortlessly generate, customize, and manage READMEs with options for different styles and content focuses. Ideal for developers looking to enhance project documentation efficiently, tldwrite streamlines the creation process, ensuring clear, professional, and comprehensive READMEs that elevate project visibility and usability.
+tldwrite is an innovative tool designed to simplify README file creation for software projects. By leveraging AI, it automates documentation processes, ensuring high-quality, customizable outputs. Ideal for developers seeking to enhance project clarity and maintainability, tldwrite streamlines dependency management and configuration, making it an essential asset for efficient software development.
 
 ---
 
-##  Features
+## 👾 Features
 
 |      | Feature         | Summary       |
 | :--- | :---:           | :---          |
-| ⚙️  | **Architecture**  | <ul><li>Utilizes a modular approach with components like `src/app.py` for the web application and `src/src.egg-info` for package metadata.</li><li>Asynchronous operations supported in the web app for README generation.</li><li>Structured to support HTTP client-server communication, data visualization, and AI model interaction.</li></ul> |
-| 🔩 | **Code Quality**  | <ul><li>Includes scripts like `scripts/clean.sh` for maintaining code cleanliness.</li><li>Uses `pytest`, `mypy`, and `pre-commit` tools for testing and maintaining code quality.</li><li>Dependency management is handled through files like `requires.txt` and `dependency_links.txt`.</li></ul> |
-| 📄 | **Documentation** | <ul><li>Documentation is managed through various `.txt` files within `src/src.egg-info`.</li><li>Primary language for documentation is unclear, with multiple formats used (`txt`, `sh`, `py`).</li><li>Metadata in `PKG-INFO` enhances project discoverability and usability.</li></ul> |
-| 🔌 | **Integrations**  | <ul><li>Integrates with various Python libraries such as `<numpy>`, `<pandas>`, and `<streamlit>`.</li><li>Supports large language models for content generation in the app.</li><li>External libraries are managed through `dependency_links.txt` for additional sources.</li></ul> |
-| 🧩 | **Modularity**    | <ul><li>Codebase includes distinct modules for different functionalities like app initialization and README generation.</li><li>`top_level.txt` defines importable modules, enhancing modularity.</li><li>Separate dependency lists for default, development, and testing needs.</li></ul> |
-| 🧪 | **Testing**       | <ul><li>Uses `<pytest>` for consistent testing environments.</li><li>Development tools like `<mypy>` and `<pre-commit>` integrated for code quality checks.</li><li>Scripts to clean the environment post-testing to maintain a clean state.</li></ul> |
-| ⚡️  | **Performance**   | <ul><li>Asynchronous features in the web app optimize performance during README generation.</li><li>Efficient management of external libraries through comprehensive dependency files.</li><li>Streamlined operations with clean and organized codebase.</li></ul> |
-| 🛡️ | **Security**      | <ul><li>Dependency management includes handling of external libraries, potentially improving security by specifying safe sources.</li><li>Clean script helps in removing unnecessary and potentially vulnerable files.</li><li>Regular updates to dependencies can help in mitigating security risks.</li></ul> |
+| ⚙️  | **Architecture**  | <ul><li>Utilizes a modular architecture that promotes separation of concerns, enhancing maintainability.</li><li>Incorporates a user-friendly <tool>Streamlit</tool> web application for generating README files.</li><li>Employs configuration management through environment variables and <tool>YAML</tool> file loading, ensuring flexibility.</li></ul> |
+| 🔩 | **Code Quality**  | <ul><li>Follows best practices for code organization and structure, improving readability.</li><li>Utilizes <tool>pytest</tool> for testing, ensuring high code quality and reliability.</li><li>Includes type checking with <tool>mypy</tool> to catch potential errors early in the development process.</li></ul> |
+| 📄 | **Documentation** | <ul><li>Automated README generation enhances documentation quality and reduces manual effort.</li><li>Comprehensive usage instructions provided for installation and execution.</li><li>Includes metadata files like <code>PKG-INFO</code> and <code>requirements.txt</code> for clarity on dependencies and project structure.</li></ul> |
+| 🔌 | **Integrations**  | <ul><li>Seamlessly integrates with various AI models for enhanced README generation.</li><li>Supports multiple language model providers, allowing flexibility in documentation generation.</li><li>Utilizes <tool>aiohttp</tool> for asynchronous HTTP requests, improving performance in API interactions.</li></ul> |
+| 🧩 | **Modularity**    | <ul><li>Codebase is organized into distinct modules, each handling specific functionalities.</li><li>Encourages reusability of components, such as analyzers and documenters.</li><li>Facilitates easy updates and maintenance by isolating changes to specific modules.</li></ul> |
+| 🧪 | **Testing**       | <ul><li>Comprehensive test suite using <tool>pytest</tool> ensures code reliability.</li><li>Automated testing processes help maintain code quality during development.</li><li>Supports continuous integration practices for ongoing quality assurance.</li></ul> |
+| ⚡️  | **Performance**   | <ul><li>Asynchronous programming with <tool>asyncio</tool> enhances performance during API calls.</li><li>Efficient data handling through structured models improves overall application responsiveness.</li><li>Optimized for quick README generation, reducing wait times for users.</li></ul> |
+| 🛡️ | **Security**      | <ul><li>Implements robust error handling and retry mechanisms for API interactions.</li><li>Environment variable management enhances security by keeping sensitive information out of the codebase.</li><li>Regular updates to dependencies help mitigate vulnerabilities.</li></ul> |
 
 ---
 
-##  Project Structure
+## 📁 Project Structure
 
 ```sh
 └── tldwrite/
@@ -65,14 +94,18 @@ The tldwrite project revolutionizes the way developers create README files by ha
     ├── assets
     │   ├── .DS_Store
     │   ├── line.svg
-    │   └── logo.png
+    │   ├── logo.png
+    │   └── stretch_logo.png
     ├── requirements.txt
     ├── scripts
     │   └── clean.sh
     ├── src
     │   ├── __init__.py
+    │   ├── agents
     │   ├── app.py
-    │   └── src.egg-info
+    │   ├── config.py
+    │   ├── src.egg-info
+    │   └── utils
     └── tests
         ├── __init__.py
         ├── conftest.py
@@ -80,7 +113,7 @@ The tldwrite project revolutionizes the way developers create README files by ha
 ```
 
 
-###  Project Index
+### 📂 Project Index
 <details open>
 	<summary><b><code>TLDWRITE/</code></b></summary>
 	<details> <!-- __root__ Submodule -->
@@ -89,7 +122,7 @@ The tldwrite project revolutionizes the way developers create README files by ha
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/requirements.txt'>requirements.txt</a></b></td>
-				<td>- Generates a comprehensive list of Python package dependencies required for the project, ensuring compatibility and functionality across various modules such as HTTP client-server communication, data visualization, and AI model interaction<br>- This setup facilitates seamless integration and efficient management of external libraries essential for the project's operation.</td>
+				<td>- Facilitates the management of project dependencies by specifying required packages and their versions for the codebase<br>- This ensures a consistent environment for development and deployment, enabling seamless integration of various libraries such as aiohttp, streamlit, and openai<br>- By automating the generation of this requirements file, it enhances maintainability and reduces potential conflicts within the project's architecture.</td>
 			</tr>
 			</table>
 		</blockquote>
@@ -100,7 +133,7 @@ The tldwrite project revolutionizes the way developers create README files by ha
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/scripts/clean.sh'>clean.sh</a></b></td>
-				<td>- Maintains the cleanliness and organization of the project environment by removing all unnecessary build, test, coverage, and Python-related artifacts<br>- It ensures a clutter-free workspace by deleting temporary files, caches, and compiled Python files, facilitating smoother development and testing processes across the codebase.</td>
+				<td>- Facilitates the cleanup of various artifacts within the project, ensuring a tidy development environment<br>- By removing build, test, coverage, and Python-related files, it helps maintain clarity and organization in the codebase<br>- This script enhances project efficiency by allowing developers to easily eliminate unnecessary files, thereby streamlining the development process and reducing potential clutter during builds and testing phases.</td>
 			</tr>
 			</table>
 		</blockquote>
@@ -110,33 +143,100 @@ The tldwrite project revolutionizes the way developers create README files by ha
 		<blockquote>
 			<table>
 			<tr>
+				<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/config.py'>config.py</a></b></td>
+				<td>- Configuration management is streamlined through the integration of environment variables, YAML file loading, and command-line arguments<br>- It establishes a cohesive framework for managing settings across various components, such as analyzers and documenters, ensuring that configurations are easily adjustable and maintainable<br>- This approach enhances the overall architecture by promoting flexibility and clarity in how different parts of the codebase interact with configuration data.</td>
+			</tr>
+			<tr>
 				<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/app.py'>app.py</a></b></td>
-				<td>- Facilitates the creation of customized README files through a Streamlit web application, leveraging various large language models<br>- Users can configure repository details, select model providers, and customize output styles<br>- The application supports asynchronous operations for generating README content, which can be previewed, downloaded, or edited directly within the interface.</td>
+				<td>- Facilitates the creation of README files for software projects through a user-friendly Streamlit web application<br>- It allows users to configure repository settings, select language model providers, and customize output options<br>- By integrating various AI models, it generates tailored README content, enhancing documentation quality while streamlining the process for developers<br>- The application effectively manages session states and provides real-time feedback during the generation process.</td>
 			</tr>
 			</table>
+			<details>
+				<summary><b>agents</b></summary>
+				<blockquote>
+					<table>
+					<tr>
+						<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/agents/analyzer.py'>analyzer.py</a></b></td>
+						<td>- AnalyzerAgentConfig facilitates the configuration of an analysis agent that inspects a code repository<br>- It allows users to customize the scope of the analysis by enabling or disabling various aspects such as code structure, data flow, dependencies, request flow, and API analysis<br>- This flexibility enhances the overall architecture by enabling targeted insights into the codebase, thereby improving maintainability and understanding of the project.</td>
+					</tr>
+					</table>
+					<details>
+						<summary><b>models</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/agents/models/enums.py'>enums.py</a></b></td>
+								<td>- Defines enumerations for various LLM API service keys, supported providers, OpenAI models, and their corresponding base URLs<br>- These enumerations facilitate consistent and clear management of environment variables and API interactions across the codebase, enhancing maintainability and readability while ensuring seamless integration with multiple LLM services<br>- This structure supports the overall architecture by centralizing configuration details essential for API communication.</td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/agents/models/openai.py'>openai.py</a></b></td>
+								<td>- OpenAIHandler facilitates interaction with OpenAI's API and local Ollama deployments, enabling text generation capabilities within the project<br>- It manages configuration settings, constructs request payloads, and implements robust error handling with retry mechanisms<br>- This component is essential for integrating advanced language model functionalities, enhancing the overall architecture by providing seamless access to AI-driven text processing features.</td>
+							</tr>
+							<tr>
+								<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/agents/models/base.py'>base.py</a></b></td>
+								<td>- Facilitates the management of API requests for large language models (LLMs) within the project<br>- It serves as a foundational interface for various LLM handler implementations, enabling asynchronous interactions with LLM APIs<br>- By orchestrating prompt generation and response processing, it enhances the overall architecture's capability to summarize code and manage contextual information effectively, thereby streamlining the integration of LLM functionalities across the codebase.</td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+					<details>
+						<summary><b>prompts</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/agents/prompts/analyzer.yaml'>analyzer.yaml</a></b></td>
+								<td>- StructureAnalyzer serves as an autonomous code structure analyst, tasked with identifying and documenting key architectural components within the codebase<br>- By examining files, classes, and their relationships, it produces a comprehensive analysis that maps the system's organization, highlights core modules, and clarifies component responsibilities<br>- This analysis aids developers in understanding the architectural patterns and design principles that underpin the application, enhancing overall clarity and maintainability.</td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+					<details>
+						<summary><b>extractors</b></summary>
+						<blockquote>
+							<table>
+							<tr>
+								<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/agents/extractors/models.py'>models.py</a></b></td>
+								<td>- Models defined in src/agents/extractors/models.py facilitate the structured representation of repository and file information within the codebase<br>- They enable the organization of essential data such as installation instructions, file details, and dependency management, thereby enhancing the overall functionality and usability of the project<br>- This structured approach supports efficient data handling and improves the user experience when interacting with the repository.</td>
+							</tr>
+							</table>
+						</blockquote>
+					</details>
+				</blockquote>
+			</details>
+			<details>
+				<summary><b>utils</b></summary>
+				<blockquote>
+					<table>
+					<tr>
+						<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/utils/dict.py'>dict.py</a></b></td>
+						<td>- Merging dictionaries efficiently enhances data management within the project<br>- By recursively combining two dictionaries, it ensures that nested structures are preserved and updated appropriately<br>- This utility function plays a crucial role in maintaining data integrity across various components of the codebase, facilitating seamless integration and manipulation of configuration or state data throughout the application.</td>
+					</tr>
+					</table>
+				</blockquote>
+			</details>
 			<details>
 				<summary><b>src.egg-info</b></summary>
 				<blockquote>
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/src.egg-info/PKG-INFO'>PKG-INFO</a></b></td>
-						<td>- Defines the package metadata for the 'src' project, an AI-powered tool for generating README files<br>- It specifies dependencies, Python version requirements, and additional packages for development and testing environments<br>- The metadata also includes project information such as the author, version, and links to the homepage and documentation, enhancing project discoverability and usability.</td>
+						<td>- Automated README file generation is facilitated through an AI-powered tool designed to enhance developer productivity and streamline documentation processes<br>- By integrating with various developer tools and frameworks, it simplifies the creation of README files, ensuring they are customizable and up-to-date<br>- This project aims to improve the overall efficiency of documentation efforts within software development, making it a valuable asset in the codebase architecture.</td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/src.egg-info/SOURCES.txt'>SOURCES.txt</a></b></td>
-						<td>- Manages the distribution metadata for the software package, listing all files included in the package such as the license, readme, and various configuration files<br>- It ensures that all necessary components are recognized and correctly handled during the packaging and distribution process within the project's architecture.</td>
+						<td>- Provides essential metadata and documentation for the project, facilitating package management and distribution<br>- It outlines the project's dependencies, licensing, and top-level modules, ensuring that users and developers can easily understand the project's structure and requirements<br>- This contributes to the overall organization and accessibility of the codebase, promoting effective collaboration and integration within the software ecosystem.</td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/src.egg-info/requires.txt'>requires.txt</a></b></td>
-						<td>- Specifies dependencies required for the project, categorizing them into default, development, and testing needs<br>- It ensures the project uses specific versions of tools like pytest for consistent testing environments, while also integrating development tools such as mypy and pre-commit to maintain code quality and streamline contributions.</td>
+						<td>- Defines dependencies for the project, ensuring that essential packages like readmeai and Streamlit are available for core functionality<br>- Additionally, it specifies development and testing tools, including mypy for type checking and pytest for testing, which facilitate code quality and maintainability<br>- This structure supports a robust architecture, enabling seamless development and efficient testing processes within the overall codebase.</td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/src.egg-info/top_level.txt'>top_level.txt</a></b></td>
-						<td>- Defines the top-level modules of the Python package, specifying the primary components that are directly importable by users<br>- It includes the initialization of the package and the 'app' module, which likely serves as the main entry point or core functionality of the application within the broader codebase architecture.</td>
+						<td>- Defines the top-level package structure for the project, indicating the primary modules and components available for import<br>- By specifying the main application directory and the initialization module, it facilitates the organization and accessibility of the codebase, ensuring a clear entry point for developers and users interacting with the application<br>- This structure supports modular development and enhances maintainability across the project.</td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/ZahrizhalAli/tldwrite/blob/master/src/src.egg-info/dependency_links.txt'>dependency_links.txt</a></b></td>
-						<td>- Maintains a list of dependency URLs that are not available on standard package repositories, crucial for ensuring that all external libraries required by the project are accessible during installation<br>- This component supports the project's dependency management system by providing alternative sources for dependencies, thereby facilitating smoother setup and operational consistency across different environments.</td>
+						<td>- Facilitates the management of external dependencies within the project by specifying links to required packages<br>- This ensures that the codebase can seamlessly integrate with necessary libraries, enhancing functionality and maintainability<br>- By clearly outlining these dependencies, it supports the overall architecture by promoting consistency and reducing potential conflicts during development and deployment.</td>
 					</tr>
 					</table>
 				</blockquote>
@@ -146,17 +246,17 @@ The tldwrite project revolutionizes the way developers create README files by ha
 </details>
 
 ---
-##  Getting Started
+## 🚀 Getting Started
 
-###  Prerequisites
+### ☑️ Prerequisites
 
 Before getting started with tldwrite, ensure your runtime environment meets the following requirements:
 
-- **Programming Language:** Python 3.13+
-- **Package Manager:** Pip, conda.
+- **Programming Language:** Python
+- **Package Manager:** Pip
 
 
-###  Installation
+### ⚙️ Installation
 
 Install tldwrite using one of the following methods:
 
@@ -175,19 +275,35 @@ Install tldwrite using one of the following methods:
 3. Install the project dependencies:
 
 
-**Using `pip`** &nbsp; [<img align="center" src="" />]()
+**Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
 
 ```sh
 ❯ pip install -r requirements.txt
 ```
 
+
+
+
+### 🤖 Usage
+Run tldwrite using the following command:
+**Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
+
 ```sh
-❯ streamlit run src/app.py
+❯ python {entrypoint}
+```
+
+
+### 🧪 Testing
+Run the test suite using the following command:
+**Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
+
+```sh
+❯ pytest
 ```
 
 
 ---
-##  Project Roadmap
+## 📌 Project Roadmap
 
 - [X] **`Task 1`**: <strike>Implement feature one.</strike>
 - [ ] **`Task 2`**: Implement feature two.
