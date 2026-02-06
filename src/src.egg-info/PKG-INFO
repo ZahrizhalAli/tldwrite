@@ -4,8 +4,6 @@ Version: 0.1.0
 Summary: Automated README file generator, powered by AI.
 Author-email: Eli <egsalamie@gmail.com>
 License: Apache-2.0
-Project-URL: Homepage, https://github.com/eli64s/readme-ai
-Project-URL: Documentation, https://eli64s.github.io/readme-ai
 Keywords: ai-documentation,anthropic,badge-generator,developer-tools,documentation,documentation-generator,gemini,gpt,gpt-4,markdown,markdown-generator,markdown-md,readme-md,readme-md-generator,readme-generator,readme-template,readme-md-generator,streamlit
 Requires-Python: <4.0,>=3.11
 Description-Content-Type: text/markdown
