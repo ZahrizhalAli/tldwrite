@@ -881,9 +881,13 @@ pytest
 
 ## 📈 Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+- [X] **`Task 1`**: <strike>Modular friendly implementation.</strike>
+- [ ] **`Task 2`**: AI Backend Agent integration with https://github.com/InsForge/InsForge.
+- [ ] **`Task 3`**: Interactive UI for both integration.
+- [ ] **`Task 4`**: More variety of content generation for documentation
+- [ ] **`Task 5`**: Improve code analysis for robust and accurate Installation section.
+- [ ] **`Task 6`**: Agentic Chat based features with command
+
 
 ---
 
