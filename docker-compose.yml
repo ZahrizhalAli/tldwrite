@@ -1,0 +1,16 @@
+services:
+  tldwrite:
+    build: .
+    container_name: tldwrite_agent
+    # Mounts your local code into the container so you can edit live
+    # without rebuilding the image every time.
+    volumes:
+      - .:/app
+    # Load environment variables (like GEMINI_API_KEY)
+    env_file:
+      - .env
+    # Map port 8501 inside container to 8501 on your machine
+    ports:
+      - "8501:8501"
+    # Restart automatically if it crashes
+    restart: unless-stopped
