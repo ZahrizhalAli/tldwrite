@@ -848,24 +848,22 @@ Build tldwrite from the source and intsall dependencies:
 3. **Install the dependencies:**
 
 <!-- SHIELDS BADGE CURRENTLY DISABLED -->
-	<!-- [![pip][pip-shield]][pip-link] -->
-	<!-- REFERENCE LINKS -->
-	<!-- [pip-shield]: https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white -->
-	<!-- [pip-link]: https://pypi.org/project/pip/ -->
 
-	**Using [pip](https://pypi.org/project/pip/):**
-
-	```sh
 	❯ pip install -r requirements.txt
-	```
+
+4. **Docker**
+
+<!-- SHIELDS BADGE CURRENTLY DISABLED -->
+	
+	❯ docker build -t ZahrizhalAli/tldwrite .
 
 ### 💻 Usage
 
 Run the project with:
 
-**Using [pip](https://pypi.org/project/pip/):**
+**Using Streamlit:**
 ```sh
-python {entrypoint}
+streamlit run app.py
 ```
 
 ### 🧪 Testing
@@ -883,10 +881,11 @@ pytest
 
 - [X] **`Task 1`**: <strike>Modular friendly implementation.</strike>
 - [ ] **`Task 2`**: AI Backend Agent integration with https://github.com/InsForge/InsForge.
-- [ ] **`Task 3`**: Interactive UI for both integration.
+- [ ] **`Task 3`**: Enhanced generation capabilities
 - [ ] **`Task 4`**: More variety of content generation for documentation
 - [ ] **`Task 5`**: Improve code analysis for robust and accurate Installation section.
 - [ ] **`Task 6`**: Agentic Chat based features with command
+- [ ] **`Task 7`**: setup Docker
 
 
 ---
