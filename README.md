@@ -6,7 +6,7 @@
 
 <img src="./assets/logo.png" width="400px" style="position: absolute; top: 0; right: 0;" alt="Project Logo"/>
 
-# TLDWRITE
+# COGITO AI
 
 <em><em>
 
