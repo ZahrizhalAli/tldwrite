@@ -4,7 +4,7 @@
 <!-- HEADER STYLE: MODERN -->
 <div align="left" style="position: relative; width: 100%; height: 100%; ">
 
-<img src="./assets/logo.png" width="400px" style="position: absolute; top: 0; right: 0;" alt="Project Logo"/>
+<img src="./assets/cogito.png" width="400px" style="position: absolute; top: 0; right: 0;" alt="Project Logo"/>
 
 # COGITO AI
 
