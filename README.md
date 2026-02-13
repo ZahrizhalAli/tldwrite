@@ -885,8 +885,8 @@ pytest
 - [ ] **`Task 4`**: More variety of content generation for documentation
 - [ ] **`Task 5`**: Improve code analysis for robust and accurate Installation section.
 - [ ] **`Task 6`**: Agentic Chat based features with command
-- [ ] **`Task 7`**: setup Docker
-
+- [X] **`Task 7`**: setup Docker
+- [ ] **`Task 8`**: CLI based Coding Agent (in progress)
 
 ---
 
