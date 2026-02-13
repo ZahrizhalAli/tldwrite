@@ -65,7 +65,7 @@ SELECTED_PROVIDER_KEY: Final[str] = "selected_provider"
 
 # --- Streamlit Application Class ---
 
-class ReadmeAIApp:
+class CogitoAIApp:
     """
     Streamlit web app serving the readme-ai CLI.
     """
@@ -282,7 +282,7 @@ class ReadmeAIApp:
             update=llm_updates
         )
 
-        resolved_logo = ReadmeAIApp._resolve_logo(
+        resolved_logo = CogitoAIApp._resolve_logo(
             options["logo_choice"], options["custom_logo_path"]
         )
         config_loader.config.md = config_loader.config.md.model_copy(
@@ -426,5 +426,5 @@ class ReadmeAIApp:
 # --- Main Execution ---
 
 if __name__ == "__main__":
-    app = ReadmeAIApp()
+    app = CogitoAIApp()
     app.run()
