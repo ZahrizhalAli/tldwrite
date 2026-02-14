@@ -2,6 +2,8 @@
 #    uv pip compile pyproject.toml -o requirements.txt
 google-genai
 pytest
+gitingest
+litellm
 python-dotenv
 streamlit
 aiohappyeyeballs==2.5.0 ; python_version >= "3.9" and python_version < "4.0"
