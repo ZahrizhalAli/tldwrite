@@ -4,6 +4,8 @@ google-genai
 pytest
 gitingest
 litellm
+opik
+pyplot
 python-dotenv
 streamlit
 aiohappyeyeballs==2.5.0 ; python_version >= "3.9" and python_version < "4.0"

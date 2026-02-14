@@ -22,6 +22,3 @@ def ingest_github_repo(repo_url: str) -> dict[str, str]:
         return context
     except Exception as e:
         raise Exception(f"Error ingesting repository: {str(e)}") from e
-
-context = ingest_github_repo("https://github.com/ZahrizhalAli/tldwrite")
-print(context)
